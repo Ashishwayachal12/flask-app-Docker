@@ -41,7 +41,6 @@ pipeline {
                 }
             }
         }
-
         stage("Deploy") {
             steps {
                 echo "Deploying container using Docker Compose..."
